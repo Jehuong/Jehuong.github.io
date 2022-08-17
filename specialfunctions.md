@@ -5,9 +5,9 @@ $$
 J_{n}(x)= \frac{1}{\pi} \int_{0}^{\pi} \cos (n\tau -x \sin \tau) \mathrm{d}\tau
 $$
 ### Application: Kepler Equation
-$$
-M = \Psi  - e\sin \Psi 
-$$
+
+$$M = \Psi  - esin\Psi $$
+
 The goal is to solve $ \Psi $ from $ M $, that is, find a relation $\Psi  = f(M)$. Trying to do Fourier expansion about $e\sin \Psi $ :
 $$
 e\sin \Psi  = \sum\limits_{}^{} { {b_n}\sin (nM)} 
