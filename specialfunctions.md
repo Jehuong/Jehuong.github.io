@@ -10,7 +10,7 @@ M = \Psi  - e\sin \Psi
 $$
 The goal is to solve $ \Psi $ from $ M $, that is, find a relation $\Psi  = f(M)$. Trying to do Fourier expansion about $e\sin \Psi $ :
 $$
-e\sin \Psi  = \sum\limits_{}^{} {{b_n}\sin (nM)} 
+e\sin \Psi  = \sum\limits_{}^{} { {b_n}\sin (nM)} 
 $$
 Determine $ b_n $ :
 
