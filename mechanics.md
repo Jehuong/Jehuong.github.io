@@ -29,17 +29,6 @@ $$
 
 Substitute these expressions into the Lagrangian. Examine kinetic energy term first,
 
-<!--
-$$
-\begin{aligned}
-T & = \frac{1}{2}{m_1}{({\bf{R}} + {{\bf{r}}_1})^2} + \frac{1}{2}{m_2}{({\bf{R}} + {{\bf{r}}_2})^2} \\ 
-& = \frac{1}{2}({m_1} + {m_2}){{\bf{R}}^2} + \underbrace {{m_1}{\bf{R}} \cdot {{\bf{r}}_1} + {m_2}{\bf{R}} \cdot {{\bf{r}}_2}}_{ = 0} + \frac{1}{2}{m_1}{{\bf{r}}_1}^2 + \frac{1}{2}{m_2}{{\bf{r}}_2}^2 \\ 
-& = \frac{1}{2}({m_1} + {m_2}){{\bf{R}}^2} + \frac{1}{2}\left[ {{m_1}{{\left( {\frac{{{m_2}}}{{{m_1} + {m_2}}}} \right)}^2} + {m_2}{{\left( {\frac{{{m_1}}}{{{m_1} + {m_2}}}} \right)}^2}} \right]{{\bf{r}}^2} \\ 
-& = \frac{1}{2}({m_1} + {m_2}){{\bf{R}}^2} + \frac{1}{2}\frac{{{m_1}{m_2}}}{{{m_1} + {m_2}}}{{\bf{r}}^2}
-\end{aligned}
-$$
--->
-
 $$
 \begin{aligned}
 T & = \frac{1}{2} m_{1} \left( \mathbf{R} + \mathbf{r}_{1} \right)^{2} +\frac{1}{2} m_{2} \left( \mathbf{R}+\mathbf{r}_{2} \right)^{2} \\
