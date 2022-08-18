@@ -24,9 +24,11 @@ $$
 $$M=\Psi -e\sin \Psi $$
 
 The goal is to solve $ {\Psi} $ from $ {M} $, that is, find a relation $\Psi  = f(M)$. Trying to do Fourier expansion about $ e\sin \Psi $ :
+
 $$
 e\sin \Psi =\sum b_{n} \sin (nM)
 $$
+
 Determine $ b_{n} $ :
 
 <!--$$
