@@ -42,10 +42,10 @@ $$
 
 $$
 \begin{aligned}
-T &=\frac{1}{2} m_{1}\left(\mathbf{R}+\mathbf{r}_{1}\right)^{2}+\frac{1}{2} m_{2}\left(\mathbf{R}+\mathbf{r}_{2}\right)^{2} \\
-&=\frac{1}{2}\left(m_{1}+m_{2}\right) \mathbf{R}^{2}+\underbrace{m_{1} \mathbf{R} \cdot \mathbf{r}_{1}+m_{2} \mathbf{R} \cdot \mathbf{r}_{2}}_{=0}+\frac{1}{2} m_{1} \mathbf{r}_{1}^{2}+\frac{1}{2} m_{2} \mathbf{r}_{2}{ }^{2} \\
-&=\frac{1}{2}\left(m_{1}+m_{2}\right) \mathbf{R}^{2}+\frac{1}{2}\left[m_{1}\left(\frac{m_{2}}{m_{1}+m_{2}}\right)^{2}+m_{2}\left(\frac{m_{1}}{m_{1}+m_{2}}\right)^{2}\right] \mathbf{r}^{2} \\
-&=\frac{1}{2}\left(m_{1}+m_{2}\right) \mathbf{R}^{2}+\frac{1}{2} \frac{m_{1} m_{2}}{m_{1}+m_{2}} \mathbf{r}^{2}
+T & = \frac{1}{2} m_{1} \left( \mathbf{R} + \mathbf{r}_{1} \right)^{2} +\frac{1}{2} m_{2} \left( \mathbf{R}+\mathbf{r}_{2} \right)^{2} \\
+&=\frac{1}{2}\left(m_{1} +m_{2} \right) \mathbf{R}^{2}+\underbrace{ m_{1} \mathbf{R} \cdot \mathbf{r}_{1}+m_{2} \mathbf{R} \cdot \mathbf{r}_{2} }_{=0}+\frac{1}{2} m_{1} \mathbf{r}_{1}^{2}+\frac{1}{2} m_{2} \mathbf{r}_{2} ^{2} \\
+&=\frac{1}{2} \left(m_{1} + m_{2} \right) \mathbf{R}^{2} + \frac{1}{2} \left[m_{1}\left( \frac{m_{2} }{m_{1} +m_{2} }\right)^{2} +m_{2}\left(\frac{m_{1} }{m_{1} + m_{2} } \right) ^{2} \right] \mathbf{r} ^{2} \\
+&=\frac{1}{2} \left( m_{1} + m_{2} \right) \mathbf{R}^{2}+\frac{1}{2} \frac{ m_{1} m_{2} }{ m_{1} + m_{2} } \mathbf{r} ^{2}
 \end{aligned}
 $$
 

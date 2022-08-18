@@ -12,14 +12,14 @@
 
 # Special Functions
 ## Bessel Function
-### Integral representation
+### **Integral representation**
 
 $$
 J_{n}(x)=\frac{1}{\pi} \int_{0}^{\pi} \cos (n \tau-x \sin \tau) \mathrm{d} \tau
 $$
 
 
-### Application: Kepler Equation
+### **Application**: Kepler Equation
 
 $$M=\Psi -e\sin \Psi $$
 
