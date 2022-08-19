@@ -16,7 +16,9 @@
 
 ## Chapter: Central Force Problem
 
-At the beginning, consider the two-body system.
+### Introduction
+
+Consider the two-body system, the potential of the system is only depended on the relative distance vector of the two objects and its higher deriatives.
 
 ![image](twobodysystem.png#pic_right)
 
@@ -61,3 +63,50 @@ L = \frac{1}{2} \frac{m_{1} m_{2}}{m_{1}+m_{2}} \mathbf{r}^{2} - V(\mathbf{r} , 
 $$
 
 The coefficient of $ \mathbf{r}^{2}  $ is known as the reduced mass. Therefore, a two body central force problem can always reduced to a one body problem.
+
+### Two ways to determine the energy of a circular orbit
+
+1.In circular orbits, kinetic energy and potential energy are constants. Therefore, by *Virial Theorem*,
+
+$$
+T = - \frac{1}{2} V
+$$
+
+The total energy E is
+
+$$
+E = T + V = - \frac{1}{2} V + V = \frac{1}{2} V 
+$$
+
+for V takes the form 
+
+$$
+V = - \frac{k}{r} 
+$$
+
+to eliminate r in the expression, note that in the circular orbit, there is equilibrium between the central force and the centrifugal force. Another method to find this equation is to notice the explicit expression of E, (The $ l $ here stands for angular momentum.)
+
+$$
+E = \frac{1}{2} m \dot{r} ^{2} + \frac{1}{2} \frac{l ^{2} }{m r^{2} } - \frac{k}{r}
+$$
+
+for circular motion $ \dot{r} $ equals to zero. (this technique is also useful in finding semimajor axis length in general elliptic orbits, at apsidal distances $ \dot{r} $ equals to zero) The lefted terms hence must reached the extreme in their expression for $ r $ . In other words, the effective potential reaches minimum. Its value is thus also the minimum of the whole system can reach. 
+
+$$
+\frac{l^{2} }{m r_{0} ^{3} } - \frac{k}{r_{0} ^{2} } = 0
+$$ 
+
+After solving $ r_{0} $
+
+
+$$
+E = - \frac{m k ^{2} }{2 l^{2} } 
+$$
+
+2.Eccentricity of orbit is given by
+
+$$
+e = \sqrt{1 + \frac{2E l ^{2} }{m k^{2} } } 
+$$
+
+$ e = 1 $ in circular orbit. Solving for E recover the same expression.
