@@ -25,7 +25,7 @@ Consider the two-body system, the potential of the system is only depended on th
 The Lagrangian of this system should be 
 
 $$
-L=\frac{1}{2} m_{1} \mathbf{R} _{1} ^{2} +  \frac{1}{2} m_{2} \mathbf{R} _{2} ^{2} -V(\mathbf{r} , \dot{\mathbf{r} } , ... )
+L=\frac{1}{2} m_{1} \dot{\mathbf{R} } _{1} ^{2} +  \frac{1}{2} m_{2} \dot{\mathbf{R} } _{2} ^{2} -V(\mathbf{r} , \dot{\mathbf{r} } , ... )
 $$
 
 Trying to transform it in to center of mass frame: The vector from origin to the center of mass by definition is
@@ -49,17 +49,17 @@ Substitute these expressions into the Lagrangian. Examine kinetic energy term fi
 
 $$
 \begin{aligned}
-T & = \frac{1}{2} m_{1} \left( \mathbf{R} + \mathbf{r}_{1} \right)^{2} +\frac{1}{2} m_{2} \left( \mathbf{R}+\mathbf{r}_{2} \right)^{2} \\
-&=\frac{1}{2}\left(m_{1} +m_{2} \right) \mathbf{R}^{2}+\underbrace{ m_{1} \mathbf{R} \cdot \mathbf{r}_{1}+m_{2} \mathbf{R} \cdot \mathbf{r}_{2} }_{=0}+\frac{1}{2} m_{1} \mathbf{r}_{1}^{2}+\frac{1}{2} m_{2} \mathbf{r}_{2} ^{2} \\
-&=\frac{1}{2} \left(m_{1} + m_{2} \right) \mathbf{R}^{2} + \frac{1}{2} \left[m_{1}\left( \frac{m_{2} }{m_{1} +m_{2} }\right)^{2} +m_{2}\left(\frac{m_{1} }{m_{1} + m_{2} } \right) ^{2} \right] \mathbf{r} ^{2} \\
-&=\frac{1}{2} \left( m_{1} + m_{2} \right) \mathbf{R}^{2}+\frac{1}{2} \frac{ m_{1} m_{2} }{ m_{1} + m_{2} } \mathbf{r} ^{2}
+T & = \frac{1}{2} m_{1} \left( \dot{\mathbf{R} } + \dot{\mathbf{r} }_{1} \right)^{2} +\frac{1}{2} m_{2} \left( \dot{\mathbf{R} }+\dot{\mathbf{r} }_{2} \right)^{2} \\
+&=\frac{1}{2}\left(m_{1} +m_{2} \right) \dot{\mathbf{R} }^{2}+\underbrace{ m_{1} \dot{\mathbf{R} } \cdot \dot{\mathbf{r} } _{1} +m_{2} \dot{\mathbf{R} } \cdot \dot{\mathbf{r} }_{2} }_{=0}+\frac{1}{2} m_{1} \dot{\mathbf{r} }_{1}^{2}+\frac{1}{2} m_{2} \dot{\mathbf{r} }_{2} ^{2} \\
+&=\frac{1}{2} \left(m_{1} + m_{2} \right) \dot{\mathbf{R} }^{2} + \frac{1}{2} \left[m_{1}\left( \frac{m_{2} }{m_{1} +m_{2} }\right)^{2} +m_{2}\left(\frac{m_{1} }{m_{1} + m_{2} } \right) ^{2} \right] \dot{\mathbf{r} } ^{2} \\
+&=\frac{1}{2} \left( m_{1} + m_{2} \right) \dot{\mathbf{R} }^{2}+\frac{1}{2} \frac{ m_{1} m_{2} }{ m_{1} + m_{2} } \dot{\mathbf{r} } ^{2}
 \end{aligned}
 $$
 
-Second and third term in the second line are opposite, hence they vanished. In the last expression of kinetic energy, the first term is constant, since there is no external force acting on COM. We can drop that term in the Lagrangian:
+Second and third term in the second line are canceled out because conservation of momentum. In the last expression of kinetic energy, the first term is constant, since there is no external force acting on COM. We can drop that term in the Lagrangian:
 
 $$
-L = \frac{1}{2} \frac{m_{1} m_{2}}{m_{1}+m_{2}} \mathbf{r}^{2} - V(\mathbf{r} , \dot{\mathbf{r} } , ... )
+L = \frac{1}{2} \frac{m_{1} m_{2}}{m_{1}+m_{2}} \dot{\mathbf{r} }^{2} - V(\mathbf{r} , \dot{\mathbf{r} } , ... )
 $$
 
 The coefficient of $ \mathbf{r}^{2}  $ is known as the reduced mass. Therefore, a two body central force problem can always reduced to a one body problem.
