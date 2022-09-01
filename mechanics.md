@@ -56,7 +56,7 @@ T & = \frac{1}{2} m_{1} \left( \dot{\mathbf{R} } + \dot{\mathbf{r} }_{1} \right)
 \end{aligned}
 $$
 
-Second and third term in the second line are canceled out because conservation of momentum. In the last expression of kinetic energy, the first term is constant, since there is no external force acting on COM. We can drop that term in the Lagrangian:
+Second and third term in the second line are canceled out because the constraint of the center of mass applied. In the last expression of kinetic energy, the first term is constant, since there is no external force acting on COM. We can drop that term in the Lagrangian:
 
 $$
 L = \frac{1}{2} \frac{m_{1} m_{2}}{m_{1}+m_{2}} \dot{\mathbf{r} }^{2} - V(\mathbf{r} , \dot{\mathbf{r} } , ... )
