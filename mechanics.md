@@ -17,8 +17,53 @@
 ## Chapter: Central Force Problem
 
 ### Introduction
+Firstly, consider an ith multiple bodies system. The kinetic energy of the system is
 
-Consider the two-body system, the potential of the system is only depended on the relative distance vector of the two objects and its higher deriatives.
+$$
+T = \frac{1}{2} \sum_{i}^{} m_{i} \dot{ \mathbf{R} } _{i} ^{2} 
+$$
+
+Using R with subscript i to indicate the position vector of each particle. Define the center of mass vector as 
+
+$$
+\mathbf{R} = \frac{ \sum m_{i} \mathbf{R} _{i} }{\sum m_{i} } = \frac{ \sum m_{i} \mathbf{R} _{i} }{M } 
+$$
+
+Then the position vector of each particle is 
+
+$$
+\mathbf{R} _i = \mathbf{R} + \mathbf{r} _{i}
+$$
+
+where r with subscript i is therby the vector from center of mass to each of particle. Writing r explicitly,
+
+$$
+\begin{aligned}
+\mathbf{r} _{i} & = \mathbf{R} _{i} - \mathbf{R} \\ 
+& = \mathbf{R} _{i} - \frac{ \sum_{j} m_{j} \mathbf{R} _{j} }{\sum_{j} m_{j} } \\
+& = \frac{1}{M} \left ( \sum_{j} m_{j} \mathbf{R} _{i} - \sum_{j} m_{j} \mathbf{R} _{j}  \right ) \\
+& = \frac{1}{M} \sum_{j} m_{j} (\mathbf{R} _{i} - \mathbf{R} _{j} )
+\end{aligned}
+$$
+
+This form enabled us to see the constraint involved by the introduction of center of mass, 
+
+$$
+\begin{aligned}
+\sum m_{i} \mathbf{r} _{i} & = \frac{1}{M} \sum_{i} m_{i} \sum_{j} m_{j} (\mathbf{R} _{i} - \mathbf{R} _{j} ) \\ 
+& = \frac{1}{M} \sum_{i, j} m_{i} m_{j} ( \mathbf{R} _{i} - \mathbf{R} _{j} ) = 0
+\end{aligned}
+$$
+
+Therefore, by substituting r and center of mass vector for each particle's position vector (the one from origin ). Then applying the constraint above gives new expression for kinetic energy, 
+
+$$
+T = \frac{1}{2} \sum_{i}^{} m_{i} ( \dot{\mathbf{R} } + \dot{\mathbf{r} } _{i} ) ^{2} 
+= \frac{1}{2} M \dot{\mathbf{R} } ^{2} + \frac{1}{2} \sum_{i} m_{i} \dot{\mathbf{r} } _{i} ^{2}
+$$
+
+### Two body Problem
+More specifically, consider the two-body system, the potential of the system is only depended on the relative distance vector of the two objects and its higher deriatives.
 
 ![image](twobodysystem.png#pic_right)
 
