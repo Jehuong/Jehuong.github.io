@@ -35,7 +35,7 @@ $$
 \mathbf{R} _i = \mathbf{R} + \mathbf{r} _{i}
 $$
 
-where r with subscript i is therby the vector from center of mass to each of particle. Writing r explicitly,
+where r with subscript i is therby the vector from center of mass to each of particle. Writing r explicitly, or think equivalently, move origin to the center of mass,
 
 $$
 \begin{aligned}
