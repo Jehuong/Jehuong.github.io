@@ -46,7 +46,7 @@ $$
 \end{aligned}
 $$
 
-This form enabled us to see the constraint involved by the introduction of center of mass, 
+From the third line above, we can now see the introducction for 1/M factor in the equation made the form in summation to be symmetric. This form enabled us to see the constraint involved by the introduction of center of mass, 
 
 $$
 \begin{aligned}
